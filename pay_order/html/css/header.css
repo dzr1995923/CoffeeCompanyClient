@@ -1,0 +1,167 @@
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-brand{
+		color:white;
+	}
+	/* header */
+	.dropdown-menu,.dropdown-toggle,.dropdown,.dropdown a {
+		background:none !important;
+		
+			 text-align: -webkit-match-parent;
+		
+	}
+	.navbar-default .navbar-nav > li > a{
+		color:white !important;
+	}
+	.navbar-default .navbar-nav > li > a:hover{/* 导航字体颜色 */
+			color:#ffeccf !important;
+	}
+	
+		.navbar-default ,.navbar-brand,	.dropdown-menu > li > a{
+				color:white !important;
+			}
+		.dropdown-menu > li > a:hover{
+			color:#ffeccf !important;
+		}
+	
+	.nav .open > a, .nav .open > a:hover{
+		 border: none !important;
+	
+	}
+	 .nav .open > a:focus{
+		    border: none !important;
+				
+	}
+	.navbar-default .navbar-nav > li > a:hover{
+			border-bottom:3px solid white;
+	}
+	
+	.box_1 h3 {
+	  background:none;
+	  padding: 10px 10px;
+	  color: #fff;
+	  font-size: 1em;
+	  margin-bottom: 0; 
+	}
+	.box_1 img{
+		margin-left:12px;
+	}
+	.box_1 a:hover, a:focus{
+		 text-decoration:none;
+	}
+	.box_1{
+		float:right;
+	  width: 23%;
+	  z-index: 1;
+	 margin: 28px 0 10px 0;
+	}
+	.box_1 p a{
+		color:#fff;	
+	}
+	.box_1 p {
+		display: inline-block;
+	}
+	.carting{
+		float:left;
+		margin-top:3em;
+	}
+	.carting ul li{
+		display:inline-block;
+	}
+	.carting ul li a{
+		display:block;
+		color:#fff;
+		font-size:14px;
+		font-weight:600;
+		padding:0 8px;
+		    margin-left: 20px;
+	}
+	.logo{
+		display: inline-block;
+		margin: 2em 0;
+		position:absolute;
+		left: 37%;
+		
+	}
+	 
+	.logo h3 a{
+		font-family: 'Raleway', sans-serif;
+		font-size:1.6em;
+		font-weight:700;
+		color:#fff;
+		text-decoration:none;
+		text-align:center
+	}
+	/* end header */
+
+	
+		
+@media(min-width: 768px){   /* >=768px */
+
+.dropdown a {
+	color:white !important;   /* 下拉框 */
+
+}
+	.dropdown-menu > li > a{
+		padding:3px 53px ;
+	}
+
+}
+
+@media(min-width: 992px){   /* >=992px */
+	
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+		.dropdown-menu > li > a{
+		padding:3px 53px ;
+	}
+	
+}
+
+
+
+	}
+@media(min-width: 1200px){   /* >=992px */
+
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+	haha{
+		background:none !important;
+		background-position:20px 50px;
+	}
+}
+
+/* 当屏幕缩小时 去掉导航条边框线 */
+@media(max-width :1199px){ /* <=1199px */
+	.navbar-default .navbar-form{
+		border:none;
+	}
+	
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+	.navbar-form{
+		display:none;
+	}
+	.dropdown-menu > li > a,.dropdown-menu > li > a{
+		text-align:center;
+	}
+}   
+
+@media(max-width: 992px){   /* <=992px */
+		.navbar-default .navbar-form{
+			border:none;
+		}
+		.dropdown a {
+			color:white !important;   /* 下拉框 */
+		}
+	.navbar-form{
+		display:none;
+	}
+	.navbar-default .navbar-nav > li > a,.dropdown-menu > li > a{
+		text-align:center;
+	}
+	}

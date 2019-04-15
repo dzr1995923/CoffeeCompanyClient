@@ -468,11 +468,9 @@ dl{
 .footer{
     padding: 4em 0;
     background: #212121;
-   /* width: 102%;
+    width: 102%;
     padding-left: -11px;
     margin-left: -15px;
-	background:url(../images/kafei1.jpg) no-repeat 0px 0px*/
-	background-size: cover;
 	margin-top: 20em;
 }
 .w3layouts_footer_grid  h2{

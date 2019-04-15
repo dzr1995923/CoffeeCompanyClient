@@ -1,0 +1,667 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/safe/css.css" />
+		<link rel="stylesheet" href="css/safe/common.min.css" />
+		<link rel="stylesheet" href="css/safe/ms-style.min.css" />
+		<link rel="stylesheet" href="css/safe/personal_member.min.css" />
+		<link rel="stylesheet" href="css/safe/Snaddress.min.css" />
+		<link rel="stylesheet" href="css/sui.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/cart.css" />
+	
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	</head>
+
+	<body class="ms-body">
+		<div id="" class="ng-top-banner"></div>
+		<div class="ng-toolbar">
+			<div class="ng-toolbar-con wrapper">
+				<div class="ng-toolbar-left">
+					<a class="ng-bar-node ng-bar-node-backhome" id="ng-bar-node-backhome" style="display: block;">
+						<span><img src="img/Home.png" style="margin-right: 10px;"/>返回Octave首页</span>
+					</a>
+					<div class="ng-bar-node-box ng-site-nav-box">
+						<a href="" class="ng-bar-node ng-bar-node-site">
+							<span><img src="img/daohang.png" style="margin-right: 5px;" />网站导航</span><em class="ng-iconfont down"></em>
+						</a>
+			
+					</div>
+
+				</div>
+				<div class="ng-toolbar-right">
+					<div class="ng-bar-node-box username-handle" id="" style="display: block;">
+						<a href="" rel="nofollow" class="dropdown-toggle ng-bar-node username-bar-node username-bar-node-noside" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+							<span id="" >Octave</span>
+							<em class="hasmsg ng-iconfont"></em>
+							<em class="ng-iconfont down"></em>
+						</a>
+							<ul class="dropdown-menu biubiu">
+								<li><a href="">新品推荐<em id="new_commodity"></em></a></li>
+								<li><a href="">会员活动<em id="new_commodity"></em></a></li>
+							</ul>
+						<div class="ng-d-box ng-down-box ng-username-slide" style="display:none;">
+							<a href="" class="ng-vip-union" target="_blank" rel="nofollow">账号管理</a>
+							<a href="" rel="nofollow">退出登录</a>
+						</div>
+					</div>
+					<!-- <div class="ng-bar-node reg-bar-node" id="reg-bar-node" style="display: none;">
+						<a href="" rel="nofollow" class="login">登录</a>
+						<a href="" target="_blank" class="login reg-bbb" rel="nofollow">注册</a>
+					</div> -->
+					<div class="ng-bar-node-box myorder-handle ">
+						<a class="dropdown-toggle ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5" rel="nofollow" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+							<span>客服</span><em class="ng-iconfont down" ></em></a>
+						<ul class="dropdown-menu biubiu"  class="">
+							<li><a>修改订单<em id="waitPayCounts"></em></a></li>
+								<li><a>查找订单<em id="waitDeliveryCounts"></em></a></li>
+								<li><a>售后/退款<em id="waitDeliveryCounts"></em></a></li>
+								<li><a>修改订单<em id="waitDeliveryCounts"></em></a></li>
+						</ul>
+					</div>
+					<a class="ng-bar-node ng-bar-node-mini-cart" rel="nofollow" href="">
+						<span><img src="img/购物车.png" />&nbsp;购物车</span>
+						<span class="total-num-bg-box">
+						<em></em>
+						<i></i>
+					</span>
+						</span>
+					</a>
+						<div class="ng-bar-node-box  mysuning-handle">
+						<a class="dropdown-toggle ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5" rel="nofollow" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+							<span>收藏夹</span><em class="ng-iconfont down" ></em></a>
+						<ul class="dropdown-menu biubiu" id="orders" class="">
+							<li><a>我的心愿单<em id="waitPayCounts"></em></a></li>
+						</ul>
+					</div>
+					<div class="ng-bar-node-box app-down-box">
+						<a href="" target="_blank" rel="nofollow" class="dropdown-toggle ng-bar-node mb-suning touch-href">
+							<span>关注Octave</span>
+						</a>
+	<!-- 二维码 -->		<div class="ng-mb-box ng-d-box mb-down-child" style="display:none;">
+							<div class="ng-code-box">
+								<p class="ng-tip">
+									<a href="" rel="nofollow" target="_blank"></a>
+								</p>
+								<a target="_blank">
+									<img src="" height="80" width="80">
+								</a>
+							</div>
+							<a href="" class="ng-close" rel="nofollow"><em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+					<div class="ng-bar-node-box app-down-box">
+<a href="" rel="nofollow" class="dropdown-toggle ng-bar-nodeng-bar-node-pr5" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+							<span id="" >卖家中心</span>
+							<em class="ng-iconfont down"></em>
+						</a>
+							<ul class="dropdown-menu biubiu last">
+								<li><a href="">帮助中心<em id="new_commodity"></em></a></li>
+								<li><a href="">查找门店<em id="new_commodity"></em></a></li>
+								<li><a href="">退换货<em id="new_commodity"></em></a></li>
+								<li><a href="">帮客预约<em id="new_commodity"></em></a></li>
+								<li><a href="">建议反馈<em id="new_commodity"></em></a></li>
+							</ul>
+					</div>
+				</div>
+				<div id="ng-minicart-slide-box"></div>
+			</div>
+		</div>
+		<header class="ms-header ms-header-inner ms-head-position">
+		<div class="header2 text-center haha">
+	 <div class="container-fluid ">
+		 <div class="main-header">
+			  <div class="carting">
+				 <ul><li><a href="login.html"><img src="img/gerenzhongxin.png"></a></li></ul>   <!-- 个人中心 -->
+				 </div>
+			 <div class="logo">
+				 <h3><a href="index.html">Octave</a></h3>
+			  </div>			  
+			<div class="box_1">	
+						 <!-- 用户个人信息 -->
+		<a href="cart.html"></a><h3><a href="cart.html"><span class="garden"></span></a><a href="">
+		<span class="username"></span><span class="sex"></span>
+		<!-- <span> <a href=""> 个人信息</a> </span> --></a> 
+		<span class="simpleCart_total"></span> 
+		</h3>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+				<!-- start header menu -->
+				<nav class="navbar navbar-default" style="background:none !important; border: none;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only ">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Octave</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse haha" id="bs-example-navbar-collapse-1">
+		<form class="navbar-form navbar-left navbar-right hidden-xs">
+		  <div class="form-group ">
+		    <input type="text" class="form-control" placeholder="Search">
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="#">首页</a></li>
+        <li><a href="#">商品介绍</a></li>
+		   <li><a href="#">在线预约</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的订单 <span class="caret"></span></a>
+		  <ul class="dropdown-menu ">
+            <li><a href="#">订单查询</a></li>
+            <li><a href="#">我的积分</a></li>
+          </ul>
+		  </li><li><a href="#">关于我们</a></li>
+        
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right ">
+        
+        <li class="dropdown">
+        
+		 
+        </li>
+      </ul>
+	 
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+			 </div>
+			  <div class="clearfix"></div> 
+	 </div>
+		</header>
+		
+		
+		
+		<div id="ms-center" class="personal-member">
+			<div class="cont">
+				<div class="cont-side">
+				<div class="side-neck" style="margin-top: 20px;">
+						<i></i>
+					</div>
+					<div class="ms-side" style="margin-top: 20px;" >
+						<article class="side-menu side-menu-off">
+							<dl class="side-menu-tree" style="padding-left: 50px;" >
+								<dt><img src="img/左侧/我的购物车.png"  style="margin-right: 10px;margin-left: -20px;"/><a href="">我的购物车</a></dt>
+								<dt><img src="img/左侧/file.png"  style="margin-right: 10px;margin-left: -20px;"/><a href="">订单管理</a></dt>
+								<dd>
+									<a style="color:#f70" ></span><a href="">我的订单</a></a>
+								</dd>
+								<dd>
+									<a href="">我的收藏</a>
+								</dd>
+								<dd>
+									<a href="">我的评价</a>
+								</dd>
+								<dd>
+									<a href="">我的足迹</a>
+								</dd>
+								<dd>
+									<a href="">参加过的活动</a>
+								</dd>
+								<dt><img src="img/左侧/我的买啦.png"  style="margin-right: 10px;margin-left: -20px;"/>账户管理</dt>
+								<dd>
+								<a href="">我的信息</a>
+								</dd>
+								<dd>
+								<a href="">我的积分</a>
+								</dd>
+								<dd>
+									<a href="">密码修改</a>
+
+								</dd>
+								<dd>
+									<a href="">邀请管理</a>
+
+								</dd>
+								<dt><img src="img/左侧/v-card-3.png"  style="margin-right: 10px;margin-left: -20px;"/>售后服务</dt>
+								<dd>
+									<a href="">退换货</a>
+
+								</dd>
+								<dd>
+									<a href="">意见/投诉</a>
+
+								</dd>
+							</dl>
+
+							<a ison="on" class="switch-side-menu icon-up-side"><i></i></a>
+						</article>
+					</div>
+				</div>
+
+		
+	<ul class="nav nav-tabs"  id="myTab"  role="tablist">
+			 <li class="col-md-offset-2 active"  class="active"><a href="#All_orders"  role="tab" data-toggle="tab">所有订单<span style="margin-left: 20px;color: #ccc;">|</span></a></li>
+			 <li ><a href="#obligation"role="tab"  data-toggle="tab" >待付款<span style="margin-left: 20px;color: #ccc;">|</span></a></li>
+			  <li ><a href="#wait_committed" role="tab"  data-toggle="tab">待发货<span style="margin-left: 20px;color: #ccc;">|</span></a></li>
+			   <li ><a href="#wait_receiving" role="tab"  data-toggle="tab">待收货<span style="margin-left: 20px;color: #ccc;">|</span></a></li>
+			   <!-- <li ><a href="#remain" role="tab" data-toggle="tab">待评价<span style="margin-left: 20px;color: #ccc;">|</span></a></li> -->
+			 </ul>
+			 
+			 <div class="tab-content col-md-offset-2"id="myTabContent"> 
+			 <div class="div_search"  >
+								<input type="text" placeholder="输入商品标题或者订单号进行搜索 " />
+								<button class="search_btn" >订单搜索</button>
+							</div>
+							
+							
+						
+						
+							
+			 <div class="col-md-12 lib" >
+								 	<span class="comm" >宝贝</span>
+								 	<span  class="price" >单价(元)</span>
+								 	<span class="count">数量</span>
+								 	<span  class="operation">商品操作</span>
+								 	<span class="reality" >实付款(元)</span>
+								 	<span class="state" >交易状态</span>
+								 	<span  class="operate">交易操作</span>
+								 </div>
+								<!-- <div style="float: right;margin-right: 5px;">
+								    	<input type="button" style="display: inline-block;background-color: #fff; background-image: url(img/我的订单/组-39.png);width: 20px;height: 20px;border: 0px;background-repeat: no-repeat;">
+								    	<input type="button" style="border:0px;display: inline-block;background-color: #fff;background-image: url(img/我的订单/组-40.png);background-repeat: no-repeat;width: 58px;height: 20px;">
+								    </div> -->
+	
+				 <div class="tab-pane active" id="All_orders">  <!-- 全部订单 -->
+	<!-- demo1 交易成功-->			 <div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+				 							 					 <div  class="orders" >
+				 					<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+															<span>下单日期：</span>
+				 							 					<span  class="order_data">2016-04-02</span>
+				 							 					<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+				 							 					<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+				 							 					<span class="integration_div" >获得积分<span>150</span>点</span>
+				 							 					 </div>	
+				 							 					 <div class="info">
+				 							 					 	<div style="width: 100%;">
+				 							 					 	<img class="info_img"src="img/coffe/sp07.jpg" />
+				 							 					 	<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+				 							 					    <dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+				 							 						<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+				 							 					    <dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+				 							 					    <br><a href="">投诉卖家</a>
+				 							 					    </dl>
+				 							 					    </div>
+				 							 					 </div>	
+				 							 					 
+				 							 					 <div class="reality_total"  >
+				 							 					 	<span class="reality_price" >142.5</span>
+				 							 					 	<dl>(含运费:00)</dl>
+				 							 					 </div>
+				 							 					 <div class="State_sell" >
+				 							 					 	<dl ><a href="">交易成功</a></dl>
+																	<dl ><a href="">订单详情</a></dl>
+				 							 					 </div>
+				 							 					 <div class="times" >
+				 							 					 	<button >去评价</button>
+				 							 					 </div>
+				 							 					 </div>
+						
+						
+	<!-- demo2 待收货-->			<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+					 <div class="orders" >
+	<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+	<span>下单日期：</span>
+						<span class="order_data" >2016-04-02</span>
+						<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+						<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+							<span class="integration_div" >获得积分<span>150</span>点</span>
+						</div>	
+							<div class="info">
+						<div style="width: 100%;">
+						<img class="info_img"src="img/coffe/sp07.jpg" />
+						<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+						<dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+						<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+						<dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+						<br><a href="">投诉卖家</a>
+						</dl>
+						</div>
+							</div>	
+								 <div class="reality_total"  >
+								<span class="reality_price" >142.5</span>
+							<dl>(含运费:00)</dl>
+								</div>
+						 <div class="State_sell" >
+						<dl ><a href="">卖家已发货</a></dl>
+					<dl><a href="">订单详情</a></dl>
+				<dl><a href="">查看物流</a></dl>
+				</div>
+													 <div class="times" >
+													<dl >还有9天10时4分</dl>
+													<button >确认收货</button>
+													 </div>
+													 </div>
+			
+			
+	<!-- demo3 待付款-->				<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+								 <div class="orders"  >
+						<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+						<span>下单日期：</span>
+									<span class="order_data">2016-04-02</span>
+									<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+									<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+										<span class="integration_div">获得积分<span>150</span>点</span>
+									</div>	
+										<div class="info">
+									<div style="width: 100%;">
+									<img class="info_img"src="img/coffe/sp07.jpg" />
+									<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+									<dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+									<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+									<dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+									<br><a href="">投诉卖家</a>
+									</dl>
+									</div>
+										</div>	
+											 <div class="reality_total"  >
+											<span class="reality_price" >142.5</span>
+										<dl>(含运费:00)</dl>
+											</div>
+									 <div class="State_sell" >
+									<dl ><a href="">待付款</a></dl>  
+									<dl ><a href="">订单详情</a></dl>  
+							</div>
+																 <div class="times" >
+																	 <button >去付款</button>
+																<button >取消订单</button>
+																 </div>
+																 </div>
+			
+	<!-- demo4 待发货-->			<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+										 <div class="orders" >
+			<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+			<span>下单日期：</span>
+											<span class="order_data">2016-04-02</span>
+											<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+											<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+												<span class="integration_div" >获得积分<span>150</span>点</span>
+											</div>	
+												<div class="info" >
+											<div style="width: 100%;">
+											<img class="info_img"src="img/coffe/sp07.jpg" />
+											<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+											<dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+											<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+											<dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+											<br><a href="">投诉卖家</a>
+											</dl>
+											</div>
+												</div>	
+													 <div class="reality_total"  >
+													<span class="reality_price" >142.5</span>
+												<dl>(含运费:00)</dl>
+													</div>
+											 <div class="State_sell" >
+											<dl ><a href="">待发货</a></dl>  
+											<dl ><a href="">订单详情</a></dl>  
+									</div>
+																		 <div class="times" >
+																		<button >退款/退货</button>
+																		 </div>
+																		 </div>
+			
+		<!-- boot分页-->				<ul class="pager">
+									<li class="previous"><a href="#">&larr; Older</a></li>
+									<li class="next"><a href="#">Newer &rarr;</a></li>
+													</ul>
+			
+			 </div> 
+			 <div class="tab-pane"  id="obligation"> <!-- 待付款 -->
+	<!-- demo1 待付款-->		<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+				 							 <div class="orders" >
+				 				<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+								<span>下单日期：</span>
+				 								<span class="order_data">2016-04-02</span>
+				 								<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+				 								<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+				 									<span class="integration_div" >获得积分<span>150</span>点</span>
+				 								</div>	
+				 									<div class="info">
+				 								<div style="width: 100%;">
+				 								<img class="info_img"src="img/coffe/sp07.jpg" />
+				 								<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+				 								<dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+				 								<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+				 								<dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+				 								<br><a href="">投诉卖家</a>
+				 								</dl>
+				 								</div>
+				 									</div>	
+				 										 <div class="reality_total"  >
+				 										<span class="reality_price" >142.5</span>
+				 									<dl>(含运费:00)</dl>
+				 										</div>
+				 								 <div class="State_sell" >
+				 								<dl ><a href="">待付款</a></dl>  
+				 								<dl ><a href="">订单详情</a></dl>  
+				 						</div>
+				 															 <div class="times" >
+				 																 <button >去付款</button>
+				 															<button >取消订单</button>
+				 															 </div>
+				 															 </div>
+																			 
+																			 
+																			 
+			  </div>
+			  
+			   
+			   <div class="tab-pane" id="wait_receiving">
+				  
+		<!-- 全选	 --> <div class="col-md-12 all_instruct" style="height: 0px;padding: 10px;">
+								 	<a href="#"><span id="quanbu">全选</span></a>
+								 	<input type="button" value="批量确认收货" class="all_shouhuo"/>
+								   
+				</div>
+	<!-- demo1 -->		<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+								 <div class="orders" >
+								<input type="checkbox" class="all"  style="line-height: 50px;margin-left: 20px;">
+								<span class="order_data">2016-04-02</span>
+								<span style="line-height: 50px;margin-left: 20px;">订单号：<span>18000889898989</span></span>
+								<img class="info_img" src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+								<span class="integration_div" >获得积分<span>150</span>点</span>
+								 </div>	
+								 <div class="info" >
+								 	<div  class="col-md-12"style="width: 100%;">
+								 	<img src="img/coffe/sp06.jpg" />
+								 	<dl style="width: 220px;float: left;margin-left: 20px;margin-top: 20px;" >蓝山咖啡</dl>
+								    <dl style="float: left;margin-left: 50px;margin-top: 40px;">150.00</dl>
+									<dl style="float: left;margin-left: 50px;margin-top: 40px;">1</dl>
+								    <dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+								    <br><a href="">投诉卖家</a>
+								    </dl>
+								    </div>
+								 </div>	
+								 
+								 <div class="reality_total"  >
+								 	<span class="reality_price" >142.5</span>
+								 	<dl>(含运费:00)</dl>
+								 </div>
+								 <div class="State_sell" >
+								 	<dl ><a href="">卖家已发货</a></dl>
+								 	<dl><a href="">订单详情</a></dl>
+								 	<dl><a href="">查看物流</a></dl>
+								 </div>
+								 <div class="times" >
+								 	<dl >还有9天10时4分</dl>
+								 	<button >确认收货</button>
+								 </div>
+								 </div>
+								 
+	<!-- demo2 -->		 <div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+								 					 <div class="orders"  >
+								 					<input type="checkbox"  class="all" style="line-height: 50px;margin-left: 20px;">
+								 					<span class="order_data">2016-04-02</span>
+								 					<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+								 					<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+								 					<span class="integration_div" >获得积分<span>150</span>点</span>
+								 					 </div>	
+								 					 <div class="info" >
+								 					 	<div style="width: 100%;">
+								 					 	<img class="info_img"src="img/coffe/sp05.jpg" />
+								 					 	<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+								 					    <dl   style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+								 						<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+								 					    <dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+								 					    <br><a href="">投诉卖家</a>
+								 					    </dl>
+								 					    </div>
+								 					 </div>	
+								 					 
+								 					 <div class="reality_total"  >
+								 					 	<span class="reality_price" >142.5</span>
+								 					 	<dl>(含运费:00)</dl>
+								 					 </div>
+								 					 <div class="State_sell" >
+								 					 	<dl ><a href="">卖家已发货</a></dl>
+								 					 	<dl><a href="">订单详情</a></dl>
+								 					 	<dl><a href="">查看物流</a></dl>
+								 					 </div>
+								 					 <div class="times" >
+								 					 	<dl >还有9天10时4分</dl>
+								 					 	<button >确认收货</button>
+								 					 </div>
+								 					 </div>
+			   </div> 
+				<div class="tab-pane" id="wait_committed">  <!-- 待发货 -->
+<!-- demo1 待发货-->			<div class=" col-md-12"style="margin-top: 30px;height: 150px;border: 1px #ccc solid;">
+					 <div class="orders" >
+						<!--   复选框  <input type="checkbox"  style="line-height: 50px;margin-left: 20px;"> -->
+						<span>下单日期：</span>
+						<span class="order_data">2016-04-02</span>
+							<span style="line-height: 50px;margin-left: 20px;">订单号：<span>123456787654</span></span>
+						<img src="img/speech-bubble-3-拷贝.png" style="margin-left: 100px;"> <span>联系客服</span>
+							<span class="integration_div" >获得积分<span>150</span>点</span>
+					</div>	
+									<div class="info" >
+									<div style="width: 100%;">
+								<img class="info_img"src="img/coffe/sp07.jpg" />
+									<dl style="width: 220px;float: left;margin-left: 20px;margin-top:20px;" ><span>蓝山咖啡</span> <br><span> 假日咖啡</span></dl>
+										<dl  style="float: left;margin-left: 50px;margin-top:20px;"><span>150.00</span><br><span> 200.00</span></dl>
+									<dl  style="float: left;margin-left: 50px;margin-top: 20px;"><span>2</span> <br><span> 1</span></dl>
+							<dl style="float: right;margin-right: 50px;margin-top: 20px;"><a href="">退款/退货</a>
+								<br><a href="">投诉卖家</a>
+								</dl>
+							</div>
+								</div>	
+										 <div class="reality_total"  >
+										<span class="reality_price" >142.5</span>
+									<dl>(含运费:00)</dl>
+										</div>
+								 <div class="State_sell" >
+								<dl ><a href="">待发货</a></dl>  
+								<dl ><a href="">订单详情</a></dl>  
+							</div>
+															 <div class="times" >
+														<button >退款/退货</button>
+													 </div>
+											 </div>
+
+				
+				</div>  
+				<!-- <div class="tab-pane" id="remain">
+					这是待评价
+				</div> -->
+				</div>
+			
+
+			 
+			 
+			 
+
+
+
+		<div class="clear"></div>
+		
+<div class="footer">
+			<div class=" container-fluid">
+				<div class="col-md-4 w3layouts_footer_grid">
+					<h2>Follow <span>Us</span></h2>
+					<ul class="social_agileinfo">
+						<li><a href="#" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="w3_twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" class="w3_instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" class="w3_google"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-8 w3layouts_footer_grid">
+					<form action="#" method="post">
+						<input type="email" name="search" placeholder="Search..." required="">
+						<input type="submit" value="">
+					</form>
+					<ul class="w3l_footer_nav">
+						<li><a href="index.html" class="active">首页</a></li>
+						<li><a href="shangpin.html">商品选购</a></li>
+						<li><a href="zaixian.html">在线预约</a></li>
+						<li><a href="icons.html">更多服务</a></li>
+						<li><a href="aboutUs.html">关于我们</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>			
+			<div class="ng-fix-bar"></div>
+		<style type="text/css">
+			
+			.ng-footer {
+				height:514px;
+				margin-top: 0;
+			}
+			
+			.ng-s-footer {
+				height: 130px;
+				background: none;
+				text-align: center;
+			}
+			
+			.ng-s-footer p.ng-url-list {
+				height: 25px;
+				line-height: 25px;
+			}
+			
+			.ng-s-footer p.ng-url-list a {
+				color: #666666;
+			}
+			
+			.ng-s-footer p.ng-url-list a:hover {
+				color: #f60;
+			}
+			
+			.ng-s-footer .ng-authentication {
+				float: none;
+				margin: 0 auto;
+				height: 25px;
+				width: 990px;
+				margin-top: 5px;
+			}
+			
+			.ng-s-footer p.ng-copyright {
+				float: none;
+				width: 100%;
+			}
+			
+			.root1200 .ng-s-footer p.ng-copyright {
+				width: 100%;
+			}
+		</style>
+		<script type="text/javascript" src="js/all_orders.js"></script>
+	</body>
+
+</html>

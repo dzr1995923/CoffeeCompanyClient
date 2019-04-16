@@ -20,7 +20,74 @@
 		border-bottom:3px solid white;
 }
 
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-brand{
+		color:white !important;
+	}
+	
+@media(min-width: 768px){   /* >=768px */
 
+.dropdown a {
+	color:white !important;   /* 下拉框 */
+
+}
+
+}
+
+@media(min-width: 992px){   /* >=992px */
+	
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+	
+}
+
+
+
+	}
+@media(min-width: 1200px){   /* >=992px */
+
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+	haha{
+		background:none !important;
+		background-position:20px 50px;
+	}
+}
+
+/* 当屏幕缩小时 去掉导航条边框线 */
+@media(max-width :1199px){ /* <=1199px */
+	.navbar-default .navbar-form{
+		border:none;
+	}
+	
+	.dropdown a {
+		color:white !important;   /* 下拉框 */
+	
+	}
+
+	
+
+	.navbar-form{
+		display:none;
+	}
+}   
+
+@media(max-width: 992px){   /* <=992px */
+		.navbar-default .navbar-form{
+			border:none;
+		}
+		.dropdown a {
+			color:white !important;   /* 下拉框 */
+		
+		}
+
+	.navbar-form{
+		display:none;
+	}
+	}
 
 
 
@@ -1188,7 +1255,7 @@ margin-bottom: 2em;
 .metro li:last-child {
     border-bottom: 0;
 }
-.checkbox i {
+/* .checkbox i {
   position: absolute;
   bottom: 255px;
   left: 14.9%;
@@ -1197,7 +1264,7 @@ margin-bottom: 2em;
   height: 20px;
   outline: none;
   border: 2px solid #D2CF99;
-}
+} */
 .checkbox{
 	margin-top:0;
 }

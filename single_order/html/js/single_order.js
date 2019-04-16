@@ -28,7 +28,19 @@ $(function() {
 		});
 	});
 
+// anime({
+//   targets: '.art-bothside',
+//   translateX:40,
+//   duration: 3000
+// 
+// });
 
-
-
+anime({
+  targets: '.art-bothside',
+  scale: [
+	 {value: .1, easing: 'easeOutQuad', duration: 0.2},
+	{value: 1, easing: 'easeInOutSine', duration: 500}
+  ],
+  // delay: anime.stagger(200, {grid: [14, 5], from: 'center'})
+});
 })

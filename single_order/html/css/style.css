@@ -97,7 +97,9 @@ video {
 	width: 100%;
 	margin:0;
 }
-
+.art-bothside{
+	    background: wihte !important;
+}
 article,
 aside,
 details,
@@ -341,9 +343,10 @@ h1.header-w3ls {
     -webkit-box-shadow: -2px 7px 37px 8px rgba(0,0,0,0.52);
     -moz-box-shadow: -2px 7px 37px 8px rgba(0,0,0,0.52);
     box-shadow: -2px 7px 37px 8px rgba(0,0,0,0.52);
-    background:rgba(255, 255, 255, 0.1);
+    /* background:rgba(255, 255, 255, 0.1); */
     /* border: #fff 9px solid; */
 	border: #fff 5px solid;
+	    background: #e9dede;
 }
 .form-group ,.form-group-three{
     display: -webkit-flex;

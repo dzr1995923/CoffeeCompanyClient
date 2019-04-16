@@ -45,7 +45,7 @@ $(function(){
 	
 	
 	// 运费方法
-	function freight(){
+	/* function freight(){
 		var yf=$(".freight")//运费的节点
 		var add=1   //地址名
 			if(add=1){
@@ -54,7 +54,7 @@ $(function(){
 				yf.html("20.00")//省外20
 			}
 			
-	}
+	} */
 	
 	
 	//初始化状态
@@ -74,34 +74,19 @@ $(function(){
 			
 			
 			vip();//调用vip方法
-			freight();//调用运费方法
+		
 		// alert(count)	
 			function  finally_money() {  //算finallymoney结尾公用方法
-				var freight_moeny =$(".freight").html();//获得运费
-			var fre_comm=parseInt(freight_moeny)+temp;//运费+商品的价格
+				// var freight_moeny =$(".freight").html();//获得运费
+			var fre_comm=temp;//商品的价格
 			var discount=parseFloat($("#discount").html());//获得折扣
-						fina_temp=fre_comm * discount
+						fina_temp=temp * discount
 			$(".final").html(fina_temp)
 			$(".simpleCart_total").html("￥"+fina_temp)
-			
 			}
 			finally_money();//总结算
 			
 			
-// 			function finally_money2() {//上门自取 的费用用用方法
-// 			
-// 			var discount=parseFloat($("#discount").html());//获得折扣
-// 			 fina_temp =temp * discount;  //获得总价（上门自取价格）
-// 			 $(".final").html(fina_temp);
-// 			 $(".freight").hide();
-// 			  $(".freight").prev("span").hide();
-// 				// alert(temp)
-// 			}
-// 			$(".go").on('click',function () {
-// 				finally_money2();
-// 				
-// 			})
-
 
 
 
@@ -111,7 +96,6 @@ $(function(){
 	
 		$(".a_total").html("00.00");//商品  00.00
 		$("#discount").html("---");//折扣  ---
-		$(".freight").html("---");//运费  ---
 		$(".simpleCart_total").html("空的购物车")//右上角 空的购物车
 		$(".final").html("00.00")
 		
@@ -132,9 +116,6 @@ $(function(){
 	temp= temp+price_all;//获取实际总价
 	$('.a_total').html(temp)//赋值给商品显示总价
 		vip();//调用vip方法
-		freight();//调用运费方法
-
-			
 	finally_money();//总结算方法
 	
 	})
@@ -149,7 +130,6 @@ $(function(){
 			temp=temp-price_all;
 			// alert("不能再少了")
 		}
-		
 		num--;
 		if(num<=1){
 			num=1;
@@ -157,13 +137,10 @@ $(function(){
 		parseInt(num);
 		$(this).next().val(num);
 		var count=parseInt(num);//获取袋数;
-		
-	
 		if(num!=1){
 			temp=temp-price_all;//当点击减号计算总价
 		}
 		$(".a_total").html(temp)
-		
 		finally_money();
 		
 	})
@@ -184,7 +161,6 @@ $(function(){
 			if(temp==0){
 				$(".a_total").html("00.00");//商品  00.00
 			$("#discount").html("---");//折扣  ---
-			$(".freight").html("---");//运费  ---
 			$(".simpleCart_total").html("空的购物车")//右上角 空的购物车
 			$(".final").html("00.00")	
 		}
@@ -209,24 +185,10 @@ $(function(){
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 })
+$(function() {
+	$("#dowebok").boxSlider({
+		orientation: 'horizontal',
+		speed: 3
+	});
+});
